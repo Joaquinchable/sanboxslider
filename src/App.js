@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react'
+import Slider1 from './slider.js'
+import Slider2 from './slider2'
+import Slider3 from './slider3'
+import Slider4 from './slider4.js'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{marginLeft:"500px"}}>
+    <Slider1/>
+    <Slider2/>
+    <Slider3/>
+    <Slider4/>
     </div>
   );
 }
